@@ -1,12 +1,13 @@
-import './App.css';
-{/* import NOMBREdelCOMPONENTE from './components/UBICACIONdelCOMPONENTE'; */}
+import React from 'react';
+import './components/container/Tiempo.css';
+import WeatherPanel from './components/container/WeatherPanel';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola chicas</h1>
-      {/* aquí declaramos nuestro COMPONENTE propio */}
-      {/* <Componente></Componente> */}
+      <WeatherPanel />
     </div>
   );
 }

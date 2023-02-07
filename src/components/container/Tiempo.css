@@ -1,0 +1,83 @@
+body {
+  /* background-color: #081C15; */
+  background-color: #E8F3EB;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.tiempoh2 {
+  background-color: white;
+  padding: 2%;
+  margin: 2%;
+}
+
+.input-group {
+  width: 50%;
+}
+
+button.btn.btn-success.input-group-text {
+  background-color: rgb(14, 92, 66) !important;
+}
+
+.card {
+  max-width: 70%;
+}
+
+.card-title{
+  position: absolute;
+  padding: 20px;
+}
+
+.card-date {
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 60px;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 300px;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 350px;
+}
+
+
+
+@media (min-width:750px){
+  .card {
+    max-width: 100%;
+  }
+
+  .card-temp{
+    margin-top: 240px;
+  }
+
+  .card-desc{
+    margin-top: 290px;
+  }
+
+}
+
+@media (min-width:1200px){
+
+  .card {
+    max-width: 60%;
+  }
+
+  .card-temp{
+    margin-top: 270px;
+  }
+
+  .card-desc{
+    margin-top: 320px;
+  }
+}

@@ -3,6 +3,7 @@ import './components/container/Tiempo.css'
 import Formulario from './components/container/Formulario';
 import Navbar from './components/container/Navbar';
 import WeatherPanel from './components/container/WeatherPanel';
+import { FooterContainer } from './containers/footer';
 {/* import NOMBREdelCOMPONENTE from './components/UBICACIONdelCOMPONENTE'; */}
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <WeatherPanel />
       <Formulario></Formulario>
+      <FooterContainer />
     </div>
   );
 }

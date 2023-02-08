@@ -1,5 +1,8 @@
+import React from 'react';
 import './App.css';
 import './components/container/Tiempo.css'
+import Products from './components/container/Products';
+import './styles-carrito/carritoList.css';
 import Formulario from './components/container/Formulario';
 import Navbar from './components/container/Navbar';
 import WeatherPanel from './components/container/WeatherPanel';
@@ -14,6 +17,7 @@ function App() {
       {/* <Componente></Componente> */}
       <Navbar></Navbar>
       <WeatherPanel />
+      <Products />
       <Formulario></Formulario>
       <FooterContainer />
     </div>

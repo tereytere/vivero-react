@@ -7,14 +7,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	margin: 0 auto;
-	max-width: 1200px;
-	font-family:Arial, Helvetica, sans-serif;
-	color: #BC4749;
-	background-color: #fff;
-}
-
 .icon-cart {
 	width: 40px;
 	height: 40px;
@@ -153,6 +145,12 @@ header {
 	grid-template-columns: repeat(4, 0.4fr);
 	gap: 20px;
 	line-height: 5%;
+
+	margin: 0 auto;
+	max-width: 1200px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #BC4749;
+	background-color: #fff;
 }
 	@media screen and (max-width: 863px) {
 		.container-items {

@@ -125,7 +125,7 @@ const Formulario = () => {
                 sitekey="6LfiyUAkAAAAAGdcXP7HtQFmb-zXp6HuPNBJXgjb"
                 onChange={onChange}
                 badge="inline"
-                size='normal'
+                size='compact'
               />
           </div>
 

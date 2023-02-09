@@ -28,8 +28,9 @@ export const Header = ({
 
 	return (
 		<header>
+			
 			<h1>Tienda</h1>
-
+			
 			<div className='container-icon'>
 				<div
 					className='container-cart-icon'
@@ -108,6 +109,7 @@ export const Header = ({
 					)}
 				</div>
 			</div>
+			
 		</header>
 	);
 };

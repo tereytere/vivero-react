@@ -74,6 +74,7 @@ const Formulario = () => {
     >
       {( { errors } ) => (
         <div className="h-100 p-5 text-bg-dark rounded-3">
+        <h1>Contacta con Nosotras</h1>
         <Form className="mb-3">
           <div>
             <label htmlFor="nombre">Nombre</label>
@@ -124,7 +125,7 @@ const Formulario = () => {
                 sitekey="6LfiyUAkAAAAAGdcXP7HtQFmb-zXp6HuPNBJXgjb"
                 onChange={onChange}
                 badge="inline"
-                size='compact'
+                size='normal'
               />
           </div>
 

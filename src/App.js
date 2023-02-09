@@ -12,7 +12,7 @@ import { FooterContainer } from './containers/footer';
 function App() {
   return (
     <div className="App">
-      <h1>Hola chicas</h1>
+      {/* <h1>Hola chicas</h1> */}
       {/* aquí declaramos nuestro COMPONENTE propio */}
       {/* <Componente></Componente> */}
       <Navbar></Navbar>

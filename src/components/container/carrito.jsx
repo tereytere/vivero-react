@@ -27,7 +27,7 @@ export const Header = ({
 	};
 
 	return (
-		<header>
+		<header className='cart-shop'>
 			
 			<h1>Tienda</h1>
 			

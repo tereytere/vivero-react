@@ -39,3 +39,10 @@
 	color: red;
 	margin-bottom: 20px;
 }
+
+@media (min-width:900px){
+	.rounded-3 {
+		max-width: 50%;
+		margin-left: 25%;
+	}
+}

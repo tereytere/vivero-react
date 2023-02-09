@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 .rounded-3 {
-	background: #c4d69bcd!important;
-	border: 2px solid #045029a7;
+	background: #c4d69bcd !important;
+	border: none;
 	margin: 5%;
 	font-family: 'Poppins', sans-serif;
 }

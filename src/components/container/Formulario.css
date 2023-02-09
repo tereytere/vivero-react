@@ -8,9 +8,26 @@
 }
 
 .btn-primary {
+	/* border: none;
+	background-color: #6A994E;
+	color: #ffffff;
+	padding: 15px 0;
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+  	font-size: 17px;
+  	transition: all .3s ease; */
 	background: #57813e !important;
-	border: 2px solid #57813e;
+	border: none;
 }
+
+.btn-primary:hover{
+	background-color: #57813e!important;
+	border: none;
+  }
 
 .mx-auto {
 	padding-top: 20px;

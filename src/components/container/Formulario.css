@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 .rounded-3 {
-	background: #1f974d85 !important;
+	background: #a7c957cd !important;
 	border: 2px solid #045029a7;
 	margin: 5%;
 	font-family: 'Poppins', sans-serif;
 }
 
 .btn-primary {
-  	background: #045029 !important;
+	background: #57813e !important;
+	border: 2px solid #57813e;
 }
 
 .mx-auto {
-  	padding-top: 20px;
+	padding-top: 20px;
 }
 
 .mb-3 .error {
@@ -26,13 +27,13 @@
 	font-size: 14px;
 	padding-top: 20px;
 	color: #235c02;
-  font: bold;
+	font: bold;
 }
 
 /*recaptcha*/
 
 .mb-3 .recaptcha {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .error-captcha {

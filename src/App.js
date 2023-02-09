@@ -16,6 +16,8 @@ function App() {
       {/* aquí declaramos nuestro COMPONENTE propio */}
       {/* <Componente></Componente> */}
       <Navbar></Navbar>
+      <div class="socorro"><p class= "about-us"><strong>¡Bienvenido a Ogilvy!</strong> <br></br><br></br>En nuestro vivero online el verde nos hace felices, es sinónimo de bienestar y salud, y cuando hablamos de plantas todavía más porque limpian, purifican el aire, absorben los malos olores, reducen la humedad, mejoran el estado de ánimo y ayudan a dormir mejor. ¡Ródeate de verde!</p></div>
+      
       <WeatherPanel />
       <Products />
       <Formulario></Formulario>

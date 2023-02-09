@@ -1,6 +1,27 @@
+.socorro {
+  margin-top: 10%;
+  text-align: center;
+  padding: 30px;
+  
+}
+.about-us {
+  color:#386641;
+  align-items: center;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media screen and (min-width: 863px) {
+	.socorro {
+		font-size: x-large;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {

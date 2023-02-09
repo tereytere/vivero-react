@@ -2,7 +2,8 @@
 
 .rounded-3 {
 	background: #a7c957cd !important;
-	border: 2px solid #045029a7;
+	/* border: 2px solid #045029a7; */
+	border: none;
 	margin: 5%;
 	font-family: 'Poppins', sans-serif;
 }

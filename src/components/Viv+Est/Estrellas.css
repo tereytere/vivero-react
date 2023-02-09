@@ -6,13 +6,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 64px;
+  padding: 8px;
 }
 .card .stars {
-  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .card .stars i {
-  font-size: 2.6em;
   margin: 8px;
   cursor: pointer;
   color: #292f3d;

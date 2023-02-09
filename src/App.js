@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
-import Formulario from './components/container/Formulario'
-import Estrellas from './components/container/Estrellas';
+import Formulario from './components/Formulario';
+import Estrellas from './components/Estrellas';
+import Cards from './components/Cards';
 {/* import NOMBREdelCOMPONENTE from './components/UBICACIONdelCOMPONENTE'; */}
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       {/* aquí declaramos nuestro COMPONENTE propio */}
       {/* <Componente></Componente> */}
       <Formulario />
-      <Estrellas />
+      <Cards />
     </div>
   );
 }

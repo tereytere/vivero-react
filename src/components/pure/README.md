@@ -1,1 +1,0 @@
-En esta carpeta van los componentes más simples

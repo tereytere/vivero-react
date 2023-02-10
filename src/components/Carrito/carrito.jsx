@@ -29,7 +29,7 @@ export const Header = ({
 	return (
 		<header className='cart-shop'>
 			
-			<h1>Tienda</h1>
+			<h2 className='tienda'>Tienda</h2>
 			
 			<div className='container-icon'>
 				<div

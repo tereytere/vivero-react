@@ -1,26 +1,26 @@
 import React from 'react';
 import './App.css';
-import './components/container/Tiempo.css'
-import Products from './components/container/Products';
-import './styles-carrito/carritoList.css';
-import Formulario from './components/container/Formulario';
-import Navbar from './components/container/Navbar';
-import WeatherPanel from './components/container/WeatherPanel';
-import { FooterContainer } from './containers/footer';
-{/* import NOMBREdelCOMPONENTE from './components/UBICACIONdelCOMPONENTE'; */}
+import Formulario from './components/Formulario/Formulario';
+import WeatherPanel from './components/Tiempo/WeatherPanel';
+import { FooterContainer } from './components/Footer/footer';
+import Products from './components/Carrito/Products';
+import Navbar from './components/Navbar/Navbar';
+import Viveros from './components/Viveros/Viveros';
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>Hola chicas</h1> */}
-      {/* aquí declaramos nuestro COMPONENTE propio */}
-      {/* <Componente></Componente> */}
-      <Navbar></Navbar>
-      <div class="socorro"><p class= "about-us"><strong>¡Bienvenido a Ogilvy!</strong> <br></br><br></br>En nuestro vivero online el verde nos hace felices, es sinónimo de bienestar y salud, y cuando hablamos de plantas todavía más porque limpian, purifican el aire, absorben los malos olores, reducen la humedad, mejoran el estado de ánimo y ayudan a dormir mejor. ¡Ródeate de verde!</p></div>
-      
+      <Navbar />
+      <div className="socorro">
+        <h2 className= "about-us">
+          <strong>¡Te damos la Bienvenida a Ogilvy!</strong></h2>
+          <br></br><br></br>
+          <p>En nuestro vivero online el verde nos hace felices, es sinónimo de bienestar y salud, y cuando hablamos de plantas todavía más porque limpian, purifican el aire, absorben los malos olores, mejoran el estado de ánimo y ayudan a dormir mejor. ¡Ródeate de verde!</p>
+      </div>
+      <Viveros />
       <WeatherPanel />
       <Products />
-      <Formulario></Formulario>
+      <Formulario />
       <FooterContainer />
     </div>
   );

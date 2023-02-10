@@ -1,1 +1,0 @@
-Las páginas también son componentes y contienen otros componentes

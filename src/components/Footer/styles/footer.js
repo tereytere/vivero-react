@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 80px 60px;
+    padding: 2%;
     background: #57813E;
 `;
 
@@ -31,9 +31,9 @@ export const Row = styled.div`
 `
 
 export const Link = styled.a`
-    color: #D9D2C3;
+    color: #FFF3F4;
     ;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     font-size: 18px;
     text-decoration: none;
 
@@ -45,7 +45,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
     font-size: 24px;
-    color: #fff;
-    margin-bottom: 40px;
+    color: #FFF3F4;
+    margin-bottom: 8%;
     font-weight: bold;
 `

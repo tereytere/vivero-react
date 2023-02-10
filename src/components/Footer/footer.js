@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../componentes/footer/indexfooter'
-import { Icon } from '../componentes/icons/styles/icons'
+import Footer from './indexfooter'
+import { Icon } from './iconos/styles/icons'
 
 export function FooterContainer() {
     return (
@@ -8,7 +8,7 @@ export function FooterContainer() {
             <Footer.Wrapper>
             <Footer.Row>
                 <Footer.Column>
-                <Footer.Title>Sobre nosotros</Footer.Title>
+                <Footer.Title>Sobre nosotras</Footer.Title>
                     <Footer.Link href="#">Historia</Footer.Link>
                     <Footer.Link href="#">Nuestro compromiso</Footer.Link>
                     <Footer.Link href="#">Prensa</Footer.Link>

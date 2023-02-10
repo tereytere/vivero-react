@@ -9,12 +9,20 @@
 
 .cart-shop {
 	color: #BC4749;
-	padding: 30px;
+	align-items: center;
+}
+
+.tienda {
+	text-align: center;
+	color:#386641;
+	background-color: #c4d69bcd;
+	padding: 2%;
+	margin-left: 30%;
+
 }
 
 .container-shop {
 	margin: 0 auto;
-	background-color: #fff;
 	padding-bottom: 50px;
 }
 

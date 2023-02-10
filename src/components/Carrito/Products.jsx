@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Header } from './carrito';
 import { ProductList } from './productList';
-import '../../styles-carrito/carritoList.css';
+import './styles-carrito/carritoList.css';
 
 function Products() {
     const [allProducts, setAllProducts] = useState([]);
@@ -10,7 +10,7 @@ function Products() {
 	const [countProducts, setCountProducts] = useState(0);
 
   return (
-    <div class="container-shop">
+    <div className="container-shop">
       <Header
         allProducts={allProducts}
         setAllProducts={setAllProducts}
@@ -32,3 +32,4 @@ function Products() {
 }
 
 export default Products
+

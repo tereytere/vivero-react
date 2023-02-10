@@ -15,9 +15,38 @@
 }
 
 .h2viveros {
+  display: block;
   background-color: rgba(196, 214, 155, 0.8039215686);
   color: #386641;
   padding: 2%;
   margin: 20% 2% 2%;
   text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .vivero {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: rgba(196, 214, 155, 0.8039215686);
+    color: #386641;
+    max-height: -moz-min-content;
+    max-height: min-content;
+    max-width: 40%;
+  }
+  .viveros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+  .h2viveros {
+    display: block;
+    background-color: rgba(196, 214, 155, 0.8039215686);
+    color: #386641;
+    padding: 2%;
+    margin: 20% 2% 2%;
+    text-align: center;
+    width: 100%;
+  }
 }/*# sourceMappingURL=Vivero.css.map */

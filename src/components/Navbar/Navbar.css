@@ -24,7 +24,7 @@
   
   .navbar .logo{
     color:#FFF3F4;
-    margin: 0;
+    margin-top: -4%;
     padding: 0;
     text-align: center;
     height: 60px;
@@ -57,6 +57,13 @@
     .navbar{
       position: relative;
       transition: 0.5s all ease-in-out;
+    }
+  
+    .navbar .logo{
+      margin-top: -2%;
+      padding: 0;
+      text-align: center;
+      height: 60px;
     }
   
     .navbar.expanded{
